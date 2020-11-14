@@ -20,7 +20,7 @@ function frogit() {
         frogit.href = location.href;
         const oldTrending = trendingHeadline.nextSibling;
         const frogs = document.createElement('div');
-        frogs.innerHTML = '<p style="color:white; font-family:helvetica; text-align:center;">Have a nice day :)</p>';
+        frogs.innerHTML = '<p style="color:#1DA1F2; font-family:helvetica; text-align:center;">Have a nice day :)</p>';
         oldTrending.parentNode.replaceChild(frogs, oldTrending);
       }
     }
