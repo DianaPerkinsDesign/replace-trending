@@ -1,0 +1,141 @@
+body {
+  background-color: #CEF8EE;
+  color: #404544;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+a {
+  color: #404544;
+}
+
+a:hover {
+  color: #222524;
+}
+
+/* only accessible for large headlines; don't use elsewhere */
+.blue-text {
+  color: #128397;
+}
+
+ol { /* thanks css tricks! https://css-tricks.com/custom-list-number-styling/ */
+  counter-reset: my-awesome-counter; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol li {
+  margin: 0 0 3em 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  text-align: center;
+}
+
+ol li::before {
+  font-family: 'Nunito', sans-serif;
+  content: counter(my-awesome-counter);
+  font-size: 1.5em;
+  font-weight: bold;
+
+  position: absolute;
+  --size: 2em;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+
+  background: #9AD2C7;
+  border-radius: 50%;
+  text-align: center;
+}
+
+ol li p {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto 1em;
+}
+
+
+/* Helpers */
+
+.visually-hidden { 
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px; 
+}
+
+/* Specific page styles */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin: .5em 0 .2em;
+}
+
+.main-header + p {
+  text-align: center;
+  margin-top: 0;
+  max-width: 550px;
+}
+
+.smile-hash {
+  padding-top: 3em;
+}
+
+.lets-remove-it {
+  font-size: 3em;
+}
+
+.thats-it {
+  font-size: 2em;
+}
+
+.the-bookmarklet {
+  background: #138FA5;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block;
+}
+
+.the-bookmarklet:hover {
+  background: #107F93;
+}
+
+footer {
+  border-top: 1px solid #9AD2C7;
+  padding: 1em;
+  margin-top: 4em;
+  text-align: right;
+}

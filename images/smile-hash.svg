@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="185px" height="144px" viewBox="0 0 185 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>smile-hash</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-409.000000, -39.000000)">
+            <g id="smile-hash" transform="translate(409.000000, 36.000000)">
+                <ellipse id="Oval" fill="#95D4C7" cx="92.5" cy="138.5" rx="92.5" ry="8.5"></ellipse>
+                <g id="Group-5" transform="translate(103.000000, 72.500000) rotate(10.000000) translate(-103.000000, -72.500000) translate(40.500000, 10.000000)">
+                    <circle id="Oval" fill="#095866" cx="48.5595703" cy="55" r="7.5"></circle>
+                    <circle id="Oval" fill="#095866" cx="81.0595703" cy="55" r="7.5"></circle>
+                    <rect id="Rectangle" fill="#138FA5" x="0" y="17.5" width="125" height="15" rx="7.5"></rect>
+                    <rect id="Rectangle" fill="#138FA5" x="0" y="92.5" width="125" height="15" rx="7.5"></rect>
+                    <rect id="Rectangle" fill="#138FA5" transform="translate(22.500000, 62.500000) rotate(90.000000) translate(-22.500000, -62.500000) " x="-40" y="55" width="125" height="15" rx="7.5"></rect>
+                    <rect id="Rectangle" fill="#138FA5" transform="translate(105.000000, 62.500000) rotate(90.000000) translate(-105.000000, -62.500000) " x="42.5" y="55" width="125" height="15" rx="7.5"></rect>
+                    <path d="M51.0595703,74.0942383 C60.226237,78.4798177 69.3929036,78.4798177 78.5595703,74.0942383" id="Path-2" stroke="#095866" stroke-width="10" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

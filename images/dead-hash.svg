@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="69px" viewBox="0 0 69 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>dead-hash</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-726.000000, -416.000000)">
+            <g id="dead-hash" transform="translate(724.000000, 414.000000)">
+                <g id="Group-5" transform="translate(36.250000, 36.250000) rotate(10.000000) translate(-36.250000, -36.250000) translate(5.000000, 5.000000)" fill="#138FA5">
+                    <rect id="Rectangle" x="0" y="8.75" width="62.5" height="7.5" rx="3.75"></rect>
+                    <rect id="Rectangle" x="0" y="46.25" width="62.5" height="7.5" rx="3.75"></rect>
+                    <rect id="Rectangle" transform="translate(11.250000, 31.250000) rotate(90.000000) translate(-11.250000, -31.250000) " x="-20" y="27.5" width="62.5" height="7.5" rx="3.75"></rect>
+                    <rect id="Rectangle" transform="translate(52.500000, 31.250000) rotate(90.000000) translate(-52.500000, -31.250000) " x="21.25" y="27.5" width="62.5" height="7.5" rx="3.75"></rect>
+                </g>
+                <g id="Group-6" transform="translate(27.164660, 26.756001)" stroke="#095866" stroke-linecap="round" stroke-width="3.5">
+                    <path d="M0.5,4.75659723 L6.04572313,1" id="Path-4"></path>
+                    <path d="M0.500000134,4.75659723 L6.04572322,1" id="Path-4" transform="translate(3.272862, 2.878299) scale(-1, 1) rotate(-20.000000) translate(-3.272862, -2.878299) "></path>
+                </g>
+                <g id="Group-6" transform="translate(42.664660, 29.256001)" stroke="#095866" stroke-linecap="round" stroke-width="3.5">
+                    <path d="M0.5,4.75659723 L6.04572313,1" id="Path-4"></path>
+                    <path d="M0.500000134,4.75659723 L6.04572322,1" id="Path-4" transform="translate(3.272862, 2.878299) scale(-1, 1) rotate(-20.000000) translate(-3.272862, -2.878299) "></path>
+                </g>
+                <path d="M27.6646604,41.9400238 L43.9743005,41.9400238" id="Path-5" stroke="#095866" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

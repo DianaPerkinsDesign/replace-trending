@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Replace Trending</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@800&display=swap" rel="stylesheet">
+
+  <link href="./styles/normalize.css" rel="stylesheet">
+  <link href="./styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <img src="./images/smile-hash.svg" class="smile-hash" alt="A hashtag with a happy face inside it">
+
+    <h1 class="main-header">Replace Trending</h1>
+
+    <p>The Twitter trending section is full of very bad stuff, and you're forced to look at it in the desktop web app.</p>
+
+    <p class="visually-hidden">This uses a bookmarklet to remove the trending section on Twitter. If you use a screen reader and have an idea on how to make this more accessible, let me know! I'm @diana_perkins on Twitter.</p>
+
+    <img src="./images/whats-happening.svg" class="whats-happening" alt="A fake trending window that says: What's happening. # super Problematic Hashtag that's here to ruin your day">
+
+    <h2 class="lets-remove-it blue-text">Let's remove it!</h2>
+
+    <ol>
+      <li>
+        <p>Drag this link to your bookmarks menu</p> 
+        <a class="the-bookmarklet" href="javascript:(function()%7Bfunction%20frogit()%20%7Blet%20theadlines%20%3D%20document.getElementsByTagName(%22h1%22)%3Blet%20searchText%20%3D%20%22Trending%20now%22%3Blet%20trendingHeadline%3Bfor%20(let%20i%20%3D%200%3B%20i%20%3C%20theadlines.length%3B%20i%2B%2B)%20%7Bif%20(theadlines%5Bi%5D.textContent%20%3D%3D%20searchText)%20%7BtrendingHeadline%20%3D%20theadlines%5Bi%5D%3Bbreak%3B%7D%7Dlet%20oldTrending%20%3D%20trendingHeadline.nextSibling%3Bconst%20frogs%20%3D%20document.createElement('div')%3Bfrogs.innerHTML%20%3D%20'%3Cp%20style%3D%22color%3Awhite%3B%20font-family%3Ahelvetica%3B%20text-align%3Acenter%3B%22%3EHave%20a%20nice%20day%20%3A)%3C%2Fp%3E'%3BoldTrending.parentNode.replaceChild(frogs%2C%20oldTrending)%3B%7D%3Bfrogit()%7D)()">Replace Trending</a>
+      </li>
+      <li>
+        <p>Click the bookmark when you're on twitter.com and the trending section sucks.</p>
+        <img src="./images/replace-trending-instructions.svg" class="replace-instructions" alt="A graphic showing a mouse clicking on the bookmarklet in a browser window">
+      </li>
+    </ol>
+  </section>
+  <section>
+    <img src="./images/smile-hash.svg" class="smile-hash" alt="A hashtag with a happy face inside it">
+    <h2 class="thats-it blue-text">That's it!</h2>
+    <p>How it started ... how it ended</p>
+    <img src="./images/replace-results.svg" class="whats-happening" alt="A fake trending window that says: What's happening. # super Problematic Hashtag that's here to ruin your day">
+  </section>
+  <footer>Made with lots of 💙 by <a href="https://github.com/DianaPerkinsDesign">Diana Perkins</a>.</footer>
+</body>
+
+</html>
