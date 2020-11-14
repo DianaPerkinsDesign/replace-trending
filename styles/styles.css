@@ -94,6 +94,7 @@ section {
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 .main-header {
@@ -108,6 +109,15 @@ section {
 
 .smile-hash {
   padding-top: 3em;
+}
+
+.whats-happening-container {
+  position: relative;
+}
+
+.dead-hash {
+  position: absolute;
+  margin: 2em 0 0 1em;
 }
 
 .lets-remove-it {
@@ -138,4 +148,21 @@ footer {
   padding: 1em;
   margin-top: 4em;
   text-align: right;
+}
+
+/* I don't normally code backwards, this is just a desktop utility :) */
+@media only screen and (max-width: 600px) {
+  img.big-image {
+    width: 100%;
+  }
+  ol {
+    list-style: ordered;
+    padding: 0 1em;
+  }
+  ol li::before {
+    display: none;
+  }
+  .hidden-mobile {
+    display: none;
+  }
 }
